@@ -81,7 +81,6 @@
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
         scale-divisor = <1>;
-        rotate-deg = <0>;
     }; 
         trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
@@ -92,7 +91,6 @@
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
         y-invert;
-        //rotate-deg = <30>; not work with "y-inv"
         bindings = <&ib_wheel_scaler 1 16>;
     };
         trackball2_scroll_listener {
@@ -104,7 +102,6 @@
         //x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_MISC>;
         scale-divisor = <4>;
-        //rotate-deg = <45>;
         bindings = <&ib_wheel_scaler 1 16>;
     };
 
