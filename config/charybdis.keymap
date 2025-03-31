@@ -70,6 +70,10 @@
             bindings = <&tog 5>;
             key-positions = <51 55>;
         };
+        game {
+            bindings = <&tog 1>;
+            key-positions = <34 47>;
+        };
     };
 
     trackball_listener {
@@ -158,15 +162,15 @@
             label = "Game1";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Gam╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                   &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0       &kp F12
+                   &kp ESC       &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4            &kp N5        &kp N6        &kp N7        &kp N8        &kp N9       &kp F12
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 1 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                   &kp TAB        &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O        &lt FN P      &kp LBKT
+                   &kp TAB       &kp TAB        &kp Q         &kp W         &kp E         &kp R             &kp T         &kp Y         &kp U         &kp I         &kp O        &lt FN P
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                   &kp CAPS       &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L        &kp SEMI      &kp APOS
+                  &kp LSHFT     &kp LSHFT       &kp A         &kp S         &kp D         &kp F             &trans      &mkp LCLK       &mo 8       &mkp RCLK       &trans        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M       &kp COMMA    &lt NAV DOT     &kp FSLH      &kp RBKT
+                  &kp LCTRL     &kp LCTRL       &kp Z         &kp X         &kp C         &kp V             &trans      &mkp LCLK       &mo 8       &mkp RCLK       &trans        &trans
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
-                                                             &kp BSPC     &kp LSHFT      &kp DEL           &kp RET      &kp SPACE
+                                                             &kp BSPC     &kp SPACE      &kp DEL           &kp RET      &kp SPACE
             //                                           ╰─────────────┼─────────────┼─────────────┤ 1 ├─────────────┼─────────────╯
                                                                           &kp LCTRL     &kp LCTRL          &kp ESC        
             //                                                         ╰─────────────┴─────────────╯Gam╰─────────────╯
