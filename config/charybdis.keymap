@@ -32,6 +32,7 @@
         eng {
             bindings = <&kp F16>;
             key-positions = <28 29>;
+            layers = <0>;
         };
         rus {
             bindings = <&kp F17>;
