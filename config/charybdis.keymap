@@ -16,6 +16,7 @@
         qote {
             bindings = <&kp GRAVE>;
             key-positions = <16 17>;
+            layers = <0>;
         };
         greatt {
             bindings = <&kp LC(LA(P))>;
@@ -24,6 +25,7 @@
         ParaLeft {
             bindings = <&kp LS(N9)>;
             key-positions = <40 41>;
+            layers = <0>;
         };
         ParaRight {
             bindings = <&kp LS(N0)>;
