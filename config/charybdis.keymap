@@ -1,4 +1,4 @@
-#include <behaviors.dtsi> 
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
@@ -150,9 +150,9 @@
             label = "Base0";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Bse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                   &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5         &bootloader    &sys_reset    &bt BT_CLR    &bt BT_PRV    &bt BT_NXT     &kp DEL
+                   &kp ESC        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &kp F6        &kp F7        &kp F8        &kp F9       &kp F11       &kp F12
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 0 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                   &kp TAB       &lt 6 Q        &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O        &lt FN P      &kp LBKT
+                   &kp TAB       &lt 6 Q        &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O        &lt FN P      &kp DEL
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                    &kp LWIN       &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L        &kp SEMI      &kp APOS
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
