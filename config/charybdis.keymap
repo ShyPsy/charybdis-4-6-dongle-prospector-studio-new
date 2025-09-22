@@ -58,18 +58,18 @@
             bindings = <&sys_reset>;
             key-positions = <11 23>;
         };
-        micelay {
-            bindings = <&tog 4>;
-            key-positions = <46 47>;
-        };
-        ScrollToggle {
-            bindings = <&tog 4>;
-            key-positions = <45 46>;
-        };
-        NumTog {
-            bindings = <&tog 3>;
-            key-positions = <21 22>;
-        };
+        // micelay {
+        //     bindings = <&tog 4>;
+        //     key-positions = <46 47>;
+        // };
+        // ScrollToggle {
+        //     bindings = <&tog 4>;
+        //     key-positions = <45 46>;
+        // };
+        // NumTog {
+        //     bindings = <&tog 3>;
+        //     key-positions = <21 22>;
+        // };
         gomouse {
             bindings = <&tog 4>;
             key-positions = <51 55>;
