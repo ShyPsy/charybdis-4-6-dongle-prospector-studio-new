@@ -88,7 +88,7 @@
         };
         goscroll {
             bindings = <&tog 8>;
-            key-positions = <51 52>;
+            key-positions = <52 55>;
         };
     };
 
