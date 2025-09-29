@@ -95,7 +95,7 @@
     trackball_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <0 1 2 3 4>;
+        layers = <0 1 2 3 4 5 6 7>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -105,7 +105,7 @@
         trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <5 8>;
+        layers = <8>;
         evt-type = <INPUT_EV_REL>;      
         //x-input-code = <INPUT_REL_HWHEEL>;
         x-input-code = <INPUT_REL_MISC>;
@@ -116,7 +116,7 @@
         trackball2_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <2>;
+        layers = <>;
         evt-type = <INPUT_EV_REL>;      
         x-input-code = <INPUT_REL_HWHEEL>;
         //x-input-code = <INPUT_REL_MISC>;
@@ -237,11 +237,11 @@
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Mse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                     &trans        &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans        &trans        &trans        &trans        &trans        &trans
+                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans        &trans        &trans        &trans       &kp F11        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Mse├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                     &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans      &mkp LCLK       &mo 8       &mkp RCLK       &trans        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans      &mkp LCLK       &mo 8       &mkp RCLK     &kp LCTRL       &trans
+                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &kp F       &mkp LCLK       &mo 8       &mkp RCLK     &kp LCTRL       &trans
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤Mse├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
                                                               &trans        &trans        &trans          &lt 7 RET   &lt NAV SPACE
             //                                           ╰─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────╯
@@ -260,7 +260,7 @@
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Nav├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                     &trans       &kp LWIN     &kp LALT      &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp END       &kp LEFT      &kp DOWN     &kp RIGHT     &kp LCTRL       &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)          &kp F      &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE      &kp LALT   &kp C_AL_CALC
+                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &kp F     &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE      &kp LALT   &kp C_AL_CALC
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤Nav├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
                                                              &kp BSPC     &kp LCTRL      &kp DEL           &kp RET      &kp SPACE 
             //                                           ╰─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────╯
