@@ -33,16 +33,16 @@
       input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 3 3>, <&zip_xy_to_scroll_mapper>;
     };
 
-    // move {
-    // layers = <DEF MOUSEь>;
-    // input-processors = <&auto_mouse_layer MOUSE 1000>; // тут был автомауслеерн
-    // };
+    // move {  // тут был автомауслеер
+    // layers = <0>; // тут был автомауслеер
+    // input-processors = <&auto_mouse_layer MOUSE 1000>; // тут был автомауслеер
+    // }; // тут был автомауслеер
   };
 
-//  auto_mouse_layer: auto_mouse_layer {
-//   compatible = "zmk,input-processor-temp-layer";
-//    #input-processor-cells = <2>;
-//    require-prior-idle-ms = <500>;
-//    #excluded-positions = <30 31 32 16 17 18 10 11 12 13 22 23>;
+//  auto_mouse_layer: auto_mouse_layer {   // тут был автомауслеер
+//   compatible = "zmk,input-processor-temp-layer";   // тут был автомауслеер
+//    #input-processor-cells = <2>;   // тут был автомауслеер
+//    require-prior-idle-ms = <500>; // тут был автомауслеер
+//    #excluded-positions = <30 31 32 16 17 18 10 11 12 13 22 23>;   // тут был автомауслеер
 //  };
 };
