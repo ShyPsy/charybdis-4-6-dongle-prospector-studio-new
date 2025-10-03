@@ -35,7 +35,7 @@
 
     // move {  // тут был автомауслеер
     // layers = <0>; // тут был автомауслеер
-    // input-processors = <&auto_mouse_layer MOUSE 1000>; // тут был автомауслеер
+    // input-processors = <&auto_mouse_layer MOUSE 1000>; // время активности слоя после остановки шара
     // }; // тут был автомауслеер
   };
 
