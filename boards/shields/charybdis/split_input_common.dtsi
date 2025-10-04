@@ -30,7 +30,8 @@
 
     scroll {
       layers = <8>;
-      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 9 10>, <&zip_xy_to_scroll_mapper>; // скейлер это множитель и делитель скролла
+   // input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 9 10>, <&zip_xy_to_scroll_mapper>; // скейлер это множитель и делитель скролла
+      input-processors = <&zip_x_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_x_scaler 9 10>, <&zip_x_to_scroll_mapper>; // скейлер это множитель и делитель скролла 
     };
 
     // move {  // тут был автомауслеер
