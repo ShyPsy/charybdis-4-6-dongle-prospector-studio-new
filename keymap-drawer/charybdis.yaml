@@ -430,11 +430,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ 1
+  - '['
+  - ']'
+  - Sft+ 7
+  - Sft+ ]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -448,9 +448,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ 7
   - '['
   - ']'
+  - Sft+ 7
   - {type: held}
   - {t: ▽, type: trans}
   - Sft+ 1
