@@ -261,7 +261,7 @@ layers:
   - Ctl+ Y
   - {t: ▽, type: trans}
   - L CLK
-  - Scr_8
+  - Scr_9
   - R CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -546,6 +546,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -559,8 +560,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
