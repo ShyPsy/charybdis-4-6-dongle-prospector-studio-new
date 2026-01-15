@@ -23,6 +23,3 @@ manifest:
 
   self:
     path: config
-      revision: main      
-  self:
-    path: config
