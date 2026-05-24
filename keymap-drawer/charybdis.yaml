@@ -413,44 +413,44 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+Ctl+ I
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ']'
+  - '9'
+  - '8'
+  - '7'
+  - '['
   - Sft+ 1
-  - '['
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 9
+  - Sft+ 0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP MINUS
+  - '6'
+  - '5'
+  - '4'
+  - KP PLUS
+  - '`'
   - ']'
+  - '['
   - Sft+ 7
+  - Alt+Ctl+ -
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP SLASH
+  - '3'
+  - '2'
+  - '1'
+  - KP MULTIPLY
+  - Sft+ `
   - Sft+ ]
+  - Sft+ [
+  - Alt+Ctl+ .
+  - KP SLASH
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+Ctl+ M
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - Sft+ 7
+  - BSPC
+  - '0'
+  - SPACE
   - {type: held}
   - {t: ▽, type: trans}
   - Sft+ 1
